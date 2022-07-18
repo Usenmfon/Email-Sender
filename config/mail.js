@@ -12,5 +12,5 @@ let transporter = nodemailer.createTransport({
 })
 
 exports.sendMail = function (data) {
-    return transporter.sendMail({...data, from: "Big Chief"});
+    return transporter.sendMail({...data, from: ""});
 }
